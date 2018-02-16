@@ -1,1 +1,10 @@
 // Specific CSS for your home-page
+ /* Navbar link */
+.card-link {
+  color: #616668;
+  font-size: 14px;
+}
+.card-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}

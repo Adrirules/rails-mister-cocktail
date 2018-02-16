@@ -37,10 +37,14 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
 gem 'figaro'
+gem 'carrierwave', '~> 1.2'
+ruby '2.4.3'
+gem 'cloudinary'
+
 
 
 # Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+# gem 'capistrano-rails', group: :evelopment
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
